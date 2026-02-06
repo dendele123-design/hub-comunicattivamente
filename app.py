@@ -102,7 +102,7 @@ apps = [
     {
         "titolo": "📊 Test Diagnostico ANSIA S.P.A.", 
         "desc": "Scopri se sei un Titolare Criceto con il test completo in 20 punti.", 
-        "url": "https://ansia-spa-test.streamlit.app"
+        "url": "https://comunicattivamente-test.streamlit.app/"
     },
     {
         "titolo": "🚑 Pronto Soccorso Aziendale", 
