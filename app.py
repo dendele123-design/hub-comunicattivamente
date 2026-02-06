@@ -101,9 +101,9 @@ st.markdown(f"""
 # =================================================================
 apps = [
     {"titolo": "📊 Test Diagnostico ANSIA S.P.A.", "desc": "Scopri se sei un Titolare Criceto con il test completo in 20 punti.", "url": "https://comunicattivamente-test.streamlit.app/"},
-    {"titolo": "🚑 Pronto Soccorso Aziendale", "desc": "Calcola il tuo Profit Leak: quanto ti costano riunioni e notifiche ogni anno.", "url": "https://pronto-soccorso.streamlit.app"},
-    {"titolo": "🏢 SuPeR - HORECA Edition", "desc": "Gestione operativa per ristorazione: Chiusura Cassa e Registro HACCP.", "url": "https://super-horeca.streamlit.app"},
-    {"titolo": "🍷 Wine Selector 2.0", "desc": "Sommelier Digitale e Carta Vini interattiva per un servizio di lusso.", "url": "https://wine-selector.streamlit.app"}
+    {"titolo": "🚑 Pronto Soccorso Aziendale", "desc": "Calcola il tuo Profit Leak: quanto ti costano le riunioni inutili durante l'anno.", "url": "https://pronto-soccorso-aziendale.streamlit.app/"},
+    {"titolo": "🏢 SuPeR - HORECA Edition", "desc": "Gestione operativa per ristorazione: Chiusura Cassa e Registro HACCP.", "url": "https://super-horeca-yewtxo4nqtumhvvo2c27zu.streamlit.app/"},
+    {"titolo": "🍷 Wine Selector 2.0", "desc": "Sommelier Digitale e Carta Vini interattiva per un servizio di lusso.", "https://carta-vini-digitale-2-0.streamlit.app/"}
 ]
 
 for app in apps:
