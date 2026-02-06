@@ -9,80 +9,79 @@ ROSSO_BRAND = "#DC0612"
 
 st.markdown(f"""
 <style>
-    header {{visibility: hidden !important;}}
-    .stApp {{ background-color: #ffffff !important; }}
-    
-    /* FORZA TUTTI I TESTI FUORI DAI BOX */
-    html, body, [class*="css"], .stMarkdown, p, h1, h2, h3, h4, span, label, div {{
-        color: #1a1a1a !important;
-    }}
+header {{visibility: hidden !important;}}
+.stApp {{ background-color: #ffffff !important; }}
 
-    /* HEADER HUB */
-    .hub-header {{
-        text-align: center;
-        padding: 10px;
-        border-bottom: 2px solid #eee;
-        margin-bottom: 30px;
-    }}
-    .super-text {{ color: {ROSSO_BRAND} !important; font-weight: 900; }}
+/* FORZA TUTTI I TESTI FUORI DEI BOX */
+html, body, [class*="css"], .stMarkdown, p, h1, h2, h3, h4, span, label, div {{
+color: #1a1a1a !important;
+}}
 
-    /* CARD APP CON STRISCIA ROSSA */
-    .app-card {{
-        background-color: #f8f9fa !important;
-        padding: 20px;
-        border-radius: 15px;
-        border-left: 10px solid {ROSSO_BRAND} !important;
-        margin-bottom: 10px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    }}
-    .app-title {{ font-size: 22px; font-weight: bold; margin-bottom: 5px; }}
-    .app-desc {{ font-size: 15px; color: #555 !important; line-height: 1.4; }}
+/* HEADER HUB */
+.hub-header {{
+text-align: center;
+padding: 10px;
+border-bottom: 2px solid #eee;
+margin-bottom: 30px;
+}}
+.super-text {{ color: {ROSSO_BRAND} !important; font-weight: 900; }}
 
-    /* BOTTONI ROSSI DESATURATI */
-    .stLinkButton>a {{
-        width: 100% !important;
-        background-color: {ROSSO_BRAND} !important;
-        opacity: 0.9;
-        color: white !important;
-        font-weight: bold !important;
-        border-radius: 10px !important;
-        height: 3.5em !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        text-decoration: none !important;
-        margin-bottom: 30px !important;
-    }}
+/* CARD APP CON STRISCIA ROSSA */
+.app-card {{
+background-color: #f8f9fa !important;
+padding: 20px;
+border-radius: 15px;
+border-left: 10px solid {ROSSO_BRAND} !important;
+margin-bottom: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}}
+.app-title {{ font-size: 22px; font-weight: bold; color: #1a1a1a !important; margin-bottom: 5px; }}
+.app-desc {{ font-size: 15px; color: #555 !important; line-height: 1.4; }}
 
-    /* NUOVA AREA EBOOK CHIARA */
-    .ebook-section-light {{
-        background-color: #f9f9f9 !important;
-        padding: 30px;
-        border-radius: 20px;
-        text-align: center;
-        margin: 40px 0;
-        border: 2px dashed {ROSSO_BRAND};
-    }}
+/* BOTTONI ROSSI DESATURATI */
+.stLinkButton>a {{
+width: 200px !important;
+background-color: {ROSSO_BRAND} !important;
+opacity: 0.9;
+color: white !important;
+font-weight: bold !important;
+border-radius: 10px !important;
+height: 3.5em !important;
+display: flex !important;
+align-items: center !important;
+justify-content: center !important;
+text-decoration: none !important;
+margin-bottom: 30px !important;
+}}
 
-    /* FOOTER CONTENITORE */
-    .footer-container {{
-        text-align: center;
-        padding: 30px;
-        background-color: #f1f1f1 !important;
-        border-radius: 20px;
-        margin-top: 50px;
-    }}
-    
-    .wa-button {{
-        background-color: #25D366;
-        color: white !important;
-        padding: 12px 30px;
-        border-radius: 50px;
-        text-decoration: none;
-        font-weight: bold;
-        display: inline-block;
-        margin-top: 15px;
-    }}
+/* AREA EBOOK CHIARA */
+.ebook-section-light {{
+background-color: #f9f9f9 !important;
+padding: 30px;
+border-radius: 20px;
+text-align: center;
+margin: 40px 0;
+border: 2px dashed {ROSSO_BRAND};
+}}
+
+/* FOOTER CONTENITORE */
+.footer-container {{
+text-align: center;
+padding: 30px;
+background-color: #f1f1f1 !important;
+border-radius: 20px;
+margin-top: 50px;
+}}
+.wa-button {{
+background-color: #25D366;
+color: white !important;
+padding: 12px 30px;
+border-radius: 50px;
+text-decoration: none;
+font-weight: bold;
+display: inline-block;
+margin-top: 15px;
+}}
 </style>
 """, unsafe_allow_html=True)
 
@@ -97,13 +96,29 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # =================================================================
-# 3. ELENCO DELLE APP
+# 3. ELENCO DELLE APP (CORRETTO)
 # =================================================================
 apps = [
-    {"titolo": "📊 Test Diagnostico ANSIA S.P.A.", "desc": "Scopri se sei un Titolare Criceto con il test completo in 20 punti.", "url": "https://comunicattivamente-test.streamlit.app/"},
-    {"titolo": "🚑 Pronto Soccorso Aziendale", "desc": "Calcola il tuo Profit Leak: quanto ti costano le riunioni inutili durante l'anno.", "url": "https://pronto-soccorso-aziendale.streamlit.app/"},
-    {"titolo": "🏢 SuPeR - HORECA Edition", "desc": "Gestione operativa per ristorazione: Chiusura Cassa e Registro HACCP.", "url": "https://super-horeca-yewtxo4nqtumhvvo2c27zu.streamlit.app/"},
-    {"titolo": "🍷 Wine Selector 2.0", "desc": "Sommelier Digitale e Carta Vini interattiva per un servizio di lusso.", "https://carta-vini-digitale-2-0.streamlit.app/"}
+    {
+        "titolo": "📊 Test Diagnostico ANSIA S.P.A.", 
+        "desc": "Scopri se sei un Titolare Criceto con il test completo in 20 punti.", 
+        "url": "https://ansia-spa-test.streamlit.app"
+    },
+    {
+        "titolo": "🚑 Pronto Soccorso Aziendale", 
+        "desc": "Calcola il tuo Profit Leak: quanto ti costano riunioni e notifiche ogni anno.", 
+        "url": "https://pronto-soccorso.streamlit.app"
+    },
+    {
+        "titolo": "🏢 SuPeR - HORECA Edition", 
+        "desc": "Gestione operativa per ristorazione: Chiusura Cassa e Registro HACCP.", 
+        "url": "https://super-horeca.streamlit.app"
+    },
+    {
+        "titolo": "🍷 Wine Selector 2.0", 
+        "desc": "Sommelier Digitale e Carta Vini interattiva per un servizio di lusso.", 
+        "url": "https://wine-art-selector.streamlit.app"
+    }
 ]
 
 for app in apps:
@@ -116,7 +131,7 @@ for app in apps:
     st.link_button("APRI WEB APP 🚀", app['url'])
 
 # =================================================================
-# 4. AREA EBOOK CHIARA (NON INVADENTE)
+# 4. AREA EBOOK CHIARA
 # =================================================================
 st.markdown(f"""
 <div class="ebook-section-light">
@@ -130,9 +145,8 @@ SCARICA L'EBOOK ORA
 """, unsafe_allow_html=True)
 
 # =================================================================
-# 5. FOOTER (FLUSH LEFT PER EVITARE ERRORI)
+# 5. FOOTER (STILE RICHIESTO)
 # =================================================================
-# NOTA: Il blocco sotto non ha spazi all'inizio delle righe HTML
 footer_html = f"""
 <div class="footer-container">
 <p style="font-size: 18px; font-weight: bold; margin-bottom: 5px;">
