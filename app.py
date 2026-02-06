@@ -107,7 +107,7 @@ apps = [
     {
         "titolo": "🚑 Pronto Soccorso Aziendale", 
         "desc": "Calcola il tuo Profit Leak: quanto ti costano riunioni e notifiche ogni anno.", 
-        "url": "https://pronto-soccorso-aziendale.streamlit.app/"
+        "url": "https://toolkit-comunicattivamente.streamlit.app/"
     },
     {
         "titolo": "🏢 SuPeR - HORECA Edition", 
