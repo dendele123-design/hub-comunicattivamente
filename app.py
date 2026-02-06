@@ -107,17 +107,17 @@ apps = [
     {
         "titolo": "🚑 Pronto Soccorso Aziendale", 
         "desc": "Calcola il tuo Profit Leak: quanto ti costano riunioni e notifiche ogni anno.", 
-        "url": "https://pronto-soccorso.streamlit.app"
+        "url": "https://pronto-soccorso-aziendale.streamlit.app/"
     },
     {
         "titolo": "🏢 SuPeR - HORECA Edition", 
         "desc": "Gestione operativa per ristorazione: Chiusura Cassa e Registro HACCP.", 
-        "url": "https://super-horeca.streamlit.app"
+        "url": "https://super-horeca-yewtxo4nqtumhvvo2c27zu.streamlit.app/"
     },
     {
         "titolo": "🍷 Wine Selector 2.0", 
         "desc": "Sommelier Digitale e Carta Vini interattiva per un servizio di lusso.", 
-        "url": "https://wine-art-selector.streamlit.app"
+        "url": "https://carta-vini-digitale-2-0.streamlit.app/"
     }
 ]
 
