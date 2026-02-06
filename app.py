@@ -137,7 +137,7 @@ st.markdown(f"""
 <div class="ebook-section-light">
 <h2 style="margin-top:0; color:{ROSSO_BRAND} !important;">📘 RISORSA GRATUITA</h2>
 <p style="font-size:16px;">Scarica l'Ebook <b>"ANSIA S.P.A."</b> e impara a riprenderti il tuo tempo.</p>
-<a href="https://www.comunicattivamente.it/ebook-ansia-spa" target="_blank" 
+<a href="https://www.comunicattivamente.it/wp-content/uploads/2026/01/ansia-spa-comunicattivamente-daniele-salvatori.pdf" target="_blank" 
 style="background-color:{ROSSO_BRAND}; color:white !important; padding:12px 25px; border-radius:50px; text-decoration:none; font-weight:bold; display:inline-block; margin-top:10px;">
 SCARICA L'EBOOK ORA
 </a>
